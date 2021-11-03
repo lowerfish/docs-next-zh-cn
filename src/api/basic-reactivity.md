@@ -77,7 +77,7 @@ original.count++
 copy.count++ // 警告!
 ```
 
-与 [`reactive`](#reactive) 一样，如果任何 property 使用了 `ref`，当它通过代理访问时，则被自动解包：
+与 [`reactive`](#reactive) 一样，如果任何 property 使用了 `readonly`，当它通过代理访问时，则被自动解包：
 
 ```js
 const raw = {
